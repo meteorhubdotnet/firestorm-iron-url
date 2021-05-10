@@ -10,7 +10,7 @@ Package.on_use(function (api) {
 
   api.use('underscore');
 
-  api.use('meteorhubdotnet:firestorm-iron-core@1.0.11');
+  api.use('meteorhubdotnet:firestorm-iron-core');
   api.imply('meteorhubdotnet:firestorm-iron-core');
 
   api.add_files('lib/compiler.js');
