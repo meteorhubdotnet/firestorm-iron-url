@@ -1,7 +1,7 @@
 Package.describe({
   name: 'meteorhubdotnet:firestorm-iron-url',
   summary: 'Fork of iron:url for Firestorm',
-  version: '1.0.7',
+  version: '1.0.10',
   git: 'https://github.com/meteorhubdotnet/firestorm-iron-url'
 });
 
@@ -10,8 +10,8 @@ Package.onUse(function (api) {
 
   api.use('underscore');
 
-  api.use('meteorhubdotnet:firestorm-iron-core@1.0.7');
-  api.imply('meteorhubdotnet:firestorm-iron-core@1.0.7');
+  api.use('meteorhubdotnet:firestorm-iron-core@1.0.10');
+  api.imply('meteorhubdotnet:firestorm-iron-core@1.0.10');
 
   api.addFiles('lib/compiler.js');
   api.addFiles('lib/url.js');
